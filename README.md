@@ -43,3 +43,16 @@ trunk serve --port 3000 --open
 Preparamos tailwind
 
 version: "4.1.13"
+
+Clonar proyecto
+
+cargo build
+
+npm install
+
+instalar
+cargo install trunk
+
+Arrancar el servidor de desarrollo
+
+trunk serve --open
