@@ -1,2 +1,3 @@
 @import "tailwindcss";
 /* aquí puedes añadir tus customizaciones, plugins, etc. */
+@plugin "daisyui";

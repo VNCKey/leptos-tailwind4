@@ -11,6 +11,6 @@ module.exports = {
     },
   },
   plugins: [
-    // si usas DaisyUI u otros
+    require("daisyui")
   ],
 }

@@ -12,7 +12,6 @@ fn App() -> impl IntoView {
     let (tasks, set_tasks) = signal(Vec::<String>::new());
     let (count, set_count) = signal(0);
     view! {
-
         <main>
             <div>
                 <div>Lista de Productos</div>
@@ -42,6 +41,7 @@ fn App() -> impl IntoView {
                 <button on:click=move |_| { *set_count.write() += 1 }>"Click me: "{count}</button>
                 <p>{move || count.get()}</p>
             </div>
+            <button class="btn btn-primary">"Hola con DaisyUI"</button>
         </main>
     }
 }
